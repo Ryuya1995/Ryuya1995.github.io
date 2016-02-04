@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Ryuya's Blog]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2016-02-03T19:15:31.600Z</updated>
+  <updated>2016-02-04T11:51:19.282Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,11 +15,77 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[搭建blog学习笔记]]></title>
+    <link href="http://yoursite.com/2016/02/04/%E6%90%AD%E5%BB%BAblog%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>http://yoursite.com/2016/02/04/搭建blog学习笔记/</id>
+    <published>2016-02-04T09:54:01.000Z</published>
+    <updated>2016-02-04T11:51:19.282Z</updated>
+    <content type="html"><![CDATA[<h3 id="u672C_u6587_u5305_u542B_u4EE5_u4E0B_u5185_u5BB9"><a href="#u672C_u6587_u5305_u542B_u4EE5_u4E0B_u5185_u5BB9" class="headerlink" title="本文包含以下内容"></a>本文包含以下内容</h3><blockquote>
+<ul>
+<li>注册github,创建github page</li>
+<li>git，node.js，hexo的安装</li>
+<li>域名的购买与解析</li>
+<li>hexo的基础用法<a id="more"></a>
+</li>
+</ul>
+<hr>
+<h3 id="Github_u7BC7"><a href="#Github_u7BC7" class="headerlink" title="Github篇"></a>Github篇</h3></blockquote>
+<h4 id="1-_u6CE8_u518C"><a href="#1-_u6CE8_u518C" class="headerlink" title="1.注册"></a>1.注册</h4><p>进<a href="https://github.com/" target="_blank" rel="external">官网</a>注册，并完成<a href="https://guides.github.com/activities/hello-world/" target="_blank" rel="external">教程</a>，掌握Repositories, Branches, Commits, Issues 和 Pull Requests的概念与用法.</p>
+<h4 id="2-_u521B_u5EFAgithub_page"><a href="#2-_u521B_u5EFAgithub_page" class="headerlink" title="2.创建github page"></a>2.创建github page</h4><p>参考<a href="https://pages.github.com/" target="_blank" rel="external">pages主页</a></p>
+<hr>
+<h3 id="u5DE5_u5177_u51C6_u5907_u7BC7"><a href="#u5DE5_u5177_u51C6_u5907_u7BC7" class="headerlink" title="工具准备篇"></a>工具准备篇</h3><ol>
+<li><a href="https://git-scm.com/" target="_blank" rel="external">git</a></li>
+<li><a href="https://git-scm.com/" target="_blank" rel="external">node.js</a></li>
+<li>hexo<br>使用git <code>$ npm install -g hexo</code></li>
+</ol>
+<hr>
+<h3 id="u57DF_u540D_u7BC7"><a href="#u57DF_u540D_u7BC7" class="headerlink" title="域名篇"></a>域名篇</h3><p>可以使用阿里云的解决方案</p>
+<blockquote>
+<p><a href="http://wanwang.aliyun.com/" target="_blank" rel="external">域名购买</a><br><a href="https://help.aliyun.com/document_detail/dns/quick-start/hichina.html?spm=5176.776555913.6.98.S0rinO" target="_blank" rel="external">DNS设置</a>.</p>
+</blockquote>
+<hr>
+<h3 id="hexo_u7BC7"><a href="#hexo_u7BC7" class="headerlink" title="hexo篇"></a>hexo篇</h3><p>Create a new post</p>
+<blockquote>
+<p>$ hexo new “My New Post”</p>
+</blockquote>
+<p>Run server</p>
+<blockquote>
+<p>$ hexo server</p>
+</blockquote>
+<p>Generate static files</p>
+<blockquote>
+<p>$ hexo generate</p>
+</blockquote>
+<p>Deploy to remote sites</p>
+<blockquote>
+<p>$ hexo deploy</p>
+</blockquote>
+<p>More info: <a href="http://hexo.io/docs/" target="_blank" rel="external">hexo docs</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h3 id="u672C_u6587_u5305_u542B_u4EE5_u4E0B_u5185_u5BB9"><a href="#u672C_u6587_u5305_u542B_u4EE5_u4E0B_u5185_u5BB9" class="headerlink" title="本文包含以下内容"></a>本文包含以下内容</h3><blockquote>
+<ul>
+<li>注册github,创建github page</li>
+<li>git，node.js，hexo的安装</li>
+<li>域名的购买与解析</li>
+<li>hexo的基础用法]]>
+    
+    </summary>
+    
+      <category term="Github" scheme="http://yoursite.com/tags/Github/"/>
+    
+      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+    
+      <category term="Web" scheme="http://yoursite.com/categories/Web/"/>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[First essay]]></title>
     <link href="http://yoursite.com/2016/02/04/first-essay/"/>
     <id>http://yoursite.com/2016/02/04/first-essay/</id>
     <published>2016-02-03T18:37:47.000Z</published>
-    <updated>2016-02-03T19:15:31.600Z</updated>
+    <updated>2016-02-04T11:36:48.770Z</updated>
     <content type="html"><![CDATA[<p>第一篇随笔，摘录一首《万叶集》的短歌。</p>
 <hr>
 <pre><code>鸣神の　少しとよみて　さし昙り　雨も降らんか　君を留めん
@@ -35,7 +101,9 @@
 ]]>
     </summary>
     
-      <category term="essay" scheme="http://yoursite.com/tags/essay/"/>
+      <category term="短歌" scheme="http://yoursite.com/tags/%E7%9F%AD%E6%AD%8C/"/>
+    
+      <category term="Essay" scheme="http://yoursite.com/categories/Essay/"/>
     
   </entry>
   
