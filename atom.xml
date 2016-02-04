@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Ryuya's Blog]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2016-02-04T11:51:19.282Z</updated>
+  <updated>2016-02-04T12:23:23.789Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -19,8 +19,8 @@
     <link href="http://yoursite.com/2016/02/04/%E6%90%AD%E5%BB%BAblog%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     <id>http://yoursite.com/2016/02/04/搭建blog学习笔记/</id>
     <published>2016-02-04T09:54:01.000Z</published>
-    <updated>2016-02-04T11:51:19.282Z</updated>
-    <content type="html"><![CDATA[<h3 id="u672C_u6587_u5305_u542B_u4EE5_u4E0B_u5185_u5BB9"><a href="#u672C_u6587_u5305_u542B_u4EE5_u4E0B_u5185_u5BB9" class="headerlink" title="本文包含以下内容"></a>本文包含以下内容</h3><blockquote>
+    <updated>2016-02-04T12:23:23.789Z</updated>
+    <content type="html"><![CDATA[<h3 id="u5185_u5BB9_u63D0_u8981"><a href="#u5185_u5BB9_u63D0_u8981" class="headerlink" title="内容提要"></a>内容提要</h3><blockquote>
 <ul>
 <li>注册github,创建github page</li>
 <li>git，node.js，hexo的安装</li>
@@ -28,10 +28,10 @@
 <li>hexo的基础用法<a id="more"></a>
 </li>
 </ul>
+</blockquote>
 <hr>
-<h3 id="Github_u7BC7"><a href="#Github_u7BC7" class="headerlink" title="Github篇"></a>Github篇</h3></blockquote>
-<h4 id="1-_u6CE8_u518C"><a href="#1-_u6CE8_u518C" class="headerlink" title="1.注册"></a>1.注册</h4><p>进<a href="https://github.com/" target="_blank" rel="external">官网</a>注册，并完成<a href="https://guides.github.com/activities/hello-world/" target="_blank" rel="external">教程</a>，掌握Repositories, Branches, Commits, Issues 和 Pull Requests的概念与用法.</p>
-<h4 id="2-_u521B_u5EFAgithub_page"><a href="#2-_u521B_u5EFAgithub_page" class="headerlink" title="2.创建github page"></a>2.创建github page</h4><p>参考<a href="https://pages.github.com/" target="_blank" rel="external">pages主页</a></p>
+<h3 id="Github_u7BC7"><a href="#Github_u7BC7" class="headerlink" title="Github篇"></a>Github篇</h3><h4 id="u6CE8_u518C"><a href="#u6CE8_u518C" class="headerlink" title="注册"></a>注册</h4><p>进<a href="https://github.com/" target="_blank" rel="external">官网</a>注册，并完成<a href="https://guides.github.com/activities/hello-world/" target="_blank" rel="external">教程</a>，掌握Repositories, Branches, Commits, Issues 和 Pull Requests的概念与用法.</p>
+<h4 id="u521B_u5EFAgithub_page"><a href="#u521B_u5EFAgithub_page" class="headerlink" title="创建github page"></a>创建github page</h4><p>参考<a href="https://pages.github.com/" target="_blank" rel="external">pages主页</a></p>
 <hr>
 <h3 id="u5DE5_u5177_u51C6_u5907_u7BC7"><a href="#u5DE5_u5177_u51C6_u5907_u7BC7" class="headerlink" title="工具准备篇"></a>工具准备篇</h3><ol>
 <li><a href="https://git-scm.com/" target="_blank" rel="external">git</a></li>
@@ -63,7 +63,7 @@
 <p>More info: <a href="http://hexo.io/docs/" target="_blank" rel="external">hexo docs</a></p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<h3 id="u672C_u6587_u5305_u542B_u4EE5_u4E0B_u5185_u5BB9"><a href="#u672C_u6587_u5305_u542B_u4EE5_u4E0B_u5185_u5BB9" class="headerlink" title="本文包含以下内容"></a>本文包含以下内容</h3><blockquote>
+    <![CDATA[<h3 id="u5185_u5BB9_u63D0_u8981"><a href="#u5185_u5BB9_u63D0_u8981" class="headerlink" title="内容提要"></a>内容提要</h3><blockquote>
 <ul>
 <li>注册github,创建github page</li>
 <li>git，node.js，hexo的安装</li>
