@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[Ryuya's Blog]]></title>
+  <subtitle><![CDATA[Ryuya's Blog]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://yoursite.com/"/>
+  <updated>2016-02-03T19:15:31.600Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name><![CDATA[Ryuya1995]]></name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[First essay]]></title>
+    <link href="http://yoursite.com/2016/02/04/first-essay/"/>
+    <id>http://yoursite.com/2016/02/04/first-essay/</id>
+    <published>2016-02-03T18:37:47.000Z</published>
+    <updated>2016-02-03T19:15:31.600Z</updated>
+    <content type="html"><![CDATA[<p>第一篇随笔，摘录一首《万叶集》的短歌。</p>
+<hr>
+<pre><code>鸣神の　少しとよみて　さし昙り　雨も降らんか　君を留めん
+鸣神の　少しとよみて　降らずとも　我は止まらん　妹し留めば
+</code></pre><hr>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>第一篇随笔，摘录一首《万叶集》的短歌。</p>
+<hr>
+<pre><code>鸣神の　少しとよみて　さし昙り　雨も降らんか　君を留めん
+鸣神の　少しとよみて　降らずとも　我は止まらん　妹し留めば
+</code></pre><hr>
+]]>
+    </summary>
+    
+      <category term="essay" scheme="http://yoursite.com/tags/essay/"/>
+    
+  </entry>
+  
+</feed>
