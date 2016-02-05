@@ -27,7 +27,7 @@
 
 书写一个质能守恒公式$$E=mc^2$$
 高亮一">
-<meta property="og:updated_time" content="2016-02-05T10:35:40.432Z">
+<meta property="og:updated_time" content="2016-02-05T11:46:08.649Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="使用Sublime Text书写Markdown">
 <meta name="twitter:description" content="什么是 MarkdownMarkdown 是一种方便记忆、书写的纯文本标记语言，用户可以使用这些标记符号以最小的输入代价生成极富表现力的文档：它使用简单的符号标记不同的标题，分割不同的段落，粗体 或者 斜体 某些文字，它还可以
@@ -483,17 +483,17 @@
 <hr>
 <h2 id="u5982_u4F55_u4F7F_u7528Sublime_Text_u4E66_u5199Markdown"><a href="#u5982_u4F55_u4F7F_u7528Sublime_Text_u4E66_u5199Markdown" class="headerlink" title="如何使用Sublime Text书写Markdown"></a>如何使用Sublime Text书写Markdown</h2><p><em>本文针对Sublime Text 3，Windows 10 x64系统</em></p>
 <p>Sublime Text拥有大量的插件进行功能拓展，在此介绍一套比较舒服的解决方案（MarkDown Editing+OmniMarkupPreviwer）。</p>
-<h3 id="u5B89_u88C5_u63D2_u4EF6_u7684_u65B9_u6CD5"><a href="#u5B89_u88C5_u63D2_u4EF6_u7684_u65B9_u6CD5" class="headerlink" title="安装插件的方法"></a>安装插件的方法</h3><ol>
+<h3 id="u5B89_u88C5_u63D2_u4EF6_u7684_u65B9_u6CD5"><a href="#u5B89_u88C5_u63D2_u4EF6_u7684_u65B9_u6CD5" class="headerlink" title="安装插件的方法"></a>安装插件的方法</h3><ul>
 <li>Ctrl+`调出console</li>
-<li>输入以下代码</li>
-</ol>
+<li><p>输入以下代码</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> urllib.request,os,hashlib; h = <span class="string">'2915d1851351e5ee549c20394736b442'</span> + <span class="string">'8bc59f460fa1548d1514676163dafc88'</span>; pf = <span class="string">'Package Control.sublime-package'</span>; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( <span class="string">'http://packagecontrol.io/'</span> + pf.replace(<span class="string">' '</span>, <span class="string">'%20'</span>)).read(); dh = hashlib.sha256(by).hexdigest(); print(<span class="string">'Error validating download (got %s instead of %s), please try manual install'</span> % (dh, h)) <span class="keyword">if</span> dh != h <span class="keyword">else</span> open(os.path.join( ipp, pf), <span class="string">'wb'</span> ).write(by)</span><br></pre></td></tr></table></figure>
-<ol>
-<li>Ctrl+Shift+P调出命令面板，选择Install Package。</li>
-</ol>
+</li>
+<li><p>Ctrl+Shift+P调出命令面板，选择Install Package。</p>
+</li>
+</ul>
 <h3 id="MarkDown_Editing"><a href="#MarkDown_Editing" class="headerlink" title="MarkDown Editing"></a>MarkDown Editing</h3><p>MarkDown Editing支持Markdown语法高亮；支持Github Favored。 Markdown语法；自带3个主题。<br>安装后重启Sublime Text即可。</p>
 <h3 id="OmniMarkupPreviwer"><a href="#OmniMarkupPreviwer" class="headerlink" title="OmniMarkupPreviwer"></a>OmniMarkupPreviwer</h3><p>实时在浏览器中预览，如果大屏/双屏/多设备的话，具有很不错的体验。快捷键如下：<br>Ctrl+Alt+O: Preview Markup in Browser<br>Ctrl+Alt+X: Export Markup as HTML<br>Ctrl+Alt+C: Copy Markup as HTML<br>如果想要更好的体验，可以修改<em>Sublime Text 3/Packages/OmniMarkupPreviewer.sublime-settings</em> 文件。</p>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">"server_host"</span>: <span class="string">"127.0.0.1"</span>,</span><br><span class="line"><span class="string">"mathjax_enabled"</span>: <span class="literal">true</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">"server_host"</span>: <span class="string">"127.0.0.1"</span>,</span><br><span class="line"><span class="string">"mathjax_enabled"</span>: <span class="keyword">true</span></span><br></pre></td></tr></table></figure>
 <p>修改<code>server_host</code>为局域网地址便可实现多设备实时预览(默认为localhost)。</p>
 <p>开启<code>mathjax_enabled</code>可以支持使用$\LaTeX$语法编辑数学公式。</p>
 <p>More info: <a href="http://www.jianshu.com/p/aa30cc25c91b" target="_blank" rel="external">Sublime插件：Markdown篇</a></p>
@@ -509,7 +509,7 @@
         <p><span>本文标题:</span><a href="/2016/02/05/使用Sublime Text书写Markdown/">使用Sublime Text书写Markdown</a></p>
         <p><span>文章作者:</span><a href="/" title="访问 Ryuya1995 的个人博客">Ryuya1995</a></p>
         <p><span>发布时间:</span>2016年02月05日 - 16时11分</p>
-        <p><span>最后更新:</span>2016年02月05日 - 18时35分</p>
+        <p><span>最后更新:</span>2016年02月05日 - 19时46分</p>
         <p>
             <span>原始链接:</span><a class="post-url" href="/2016/02/05/使用Sublime Text书写Markdown/" title="使用Sublime Text书写Markdown">http://yoursite.com/2016/02/05/使用Sublime Text书写Markdown/</a>
             <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2016/02/05/使用Sublime Text书写Markdown/　　作者: Ryuya1995" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
