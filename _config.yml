@@ -91,4 +91,4 @@ backup:
     type: git
     theme: yelee
     repository:
-       github: git@github.com:Ryuya1995/Ryuya1995.github.io.git,master
+       github: git@github.com:Ryuya1995/backup-for-blog.git,master
