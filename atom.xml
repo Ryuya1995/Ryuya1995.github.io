@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Ryuya's Blog]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2016-02-29T11:29:27.060Z</updated>
+  <updated>2016-02-29T11:37:56.881Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -19,8 +19,9 @@
     <link href="http://yoursite.com/2016/02/29/%E4%BA%BA%E7%94%9F%E5%B0%8F%E7%BB%93%E4%B8%8E%E8%AE%A1%E5%88%92/"/>
     <id>http://yoursite.com/2016/02/29/人生小结与计划/</id>
     <published>2016-02-29T09:08:33.000Z</published>
-    <updated>2016-02-29T11:29:27.060Z</updated>
+    <updated>2016-02-29T11:37:56.881Z</updated>
     <content type="html"><![CDATA[<h2 id="u4EBA_u751F_u5C0F_u7ED3"><a href="#u4EBA_u751F_u5C0F_u7ED3" class="headerlink" title="人生小结"></a>人生小结</h2><p>人生已经度过二十多个春秋，今年是即将大学毕业和出国的一年，虽然自知文笔很烂，资质很浅，但也想给自己做一个小结，供自我审阅以及今后回顾。</p>
+<a id="more"></a>
 <p>我最早的记忆是五岁就读于学前班的时候，放学后在教室门前与父亲讨论今天学了什么。之后在小学遇见了很不错的老师与同学，课外上过各种类型的兴趣班，但坚持时间较长的只有书法英语，当然为之付出也有相当的回报，字好与英文好大大提升了我的文科成绩。</p>
 <p>进入初中，因为入校考的不理想，我进校后学习的比较认真，因此第一次年级统考拿了第一，之后也一直保持着第一。初中是中二的年龄，那段时光做过不少年少轻狂的事情，所幸那段时间的我热爱看书，对知识和自我提升非常热忱，在初三时因为一些机缘巧合考上了西安交大少年班和黄冈中学理科实验班，因为少年班可以节省准备高考的时间就选择了西交。</p>
 <p>西交少年班的预科一年级是在苏州中学园区校度过的，这一年是目前人生最美好的一年，没有高考压力，老师们非常乐意带我们去各地游玩，同学是来自五湖四海的学霸，和他们讨论过相对论，也讨论过红楼梦，那一年会和人比谁看的书多，也会对未来的大学生活充满憧憬。</p>
@@ -37,10 +38,13 @@
 </ol>
 ]]></content>
     <summary type="html">
-    <![CDATA[<h2 id="u4EBA_u751F_u5C0F_u7ED3"><a href="#u4EBA_u751F_u5C0F_u7ED3" class="headerlink" title="人生小结"></a>人生小结</h2><p>人生已经度过二十多个春秋，今年是即将大学毕业和出]]>
+    <![CDATA[<h2 id="u4EBA_u751F_u5C0F_u7ED3"><a href="#u4EBA_u751F_u5C0F_u7ED3" class="headerlink" title="人生小结"></a>人生小结</h2><p>人生已经度过二十多个春秋，今年是即将大学毕业和出国的一年，虽然自知文笔很烂，资质很浅，但也想给自己做一个小结，供自我审阅以及今后回顾。</p>]]>
+    
     </summary>
     
-      <category term="人生 学习" scheme="http://yoursite.com/tags/%E4%BA%BA%E7%94%9F-%E5%AD%A6%E4%B9%A0/"/>
+      <category term="人生" scheme="http://yoursite.com/tags/%E4%BA%BA%E7%94%9F/"/>
+    
+      <category term="学习" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0/"/>
     
       <category term="Essay" scheme="http://yoursite.com/categories/Essay/"/>
     
