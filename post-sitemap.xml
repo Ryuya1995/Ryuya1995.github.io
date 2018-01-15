@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>http://yoursite.com/2018/01/15/2018-plan/</loc>
+        <lastmod>2018-01-15T13:02:52.820Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://yoursite.com/2016/02/05/%E4%BD%BF%E7%94%A8Sublime%20Text%E4%B9%A6%E5%86%99Markdown/</loc>
         <lastmod>2016-02-05T17:17:54.000Z</lastmod>
         <changefreq>weekly</changefreq>

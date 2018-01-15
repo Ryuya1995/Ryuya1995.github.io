@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Ryuya's Blog]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2016-02-05T17:17:54.000Z</updated>
+  <updated>2018-01-15T13:02:52.820Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -13,6 +13,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[2018 plan]]></title>
+    <link href="http://yoursite.com/2018/01/15/2018-plan/"/>
+    <id>http://yoursite.com/2018/01/15/2018-plan/</id>
+    <published>2018-01-15T12:50:42.000Z</published>
+    <updated>2018-01-15T13:02:52.820Z</updated>
+    <content type="html"><![CDATA[<ul>
+<li>使用sololearn完成python的学习</li>
+<li>使用python做完leetcode</li>
+<li>完成东大情报创情的过去问</li>
+<li>读完英语原著《harry potter》</li>
+<li>学习机器学习并完成一些项目</li>
+<li>找一份实习</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[<ul>
+<li>使用sololearn完成python的学习</li>
+<li>使用python做完leetcode</li>
+<li>完成东大情报创情的过去问</li>
+<li>读完英语原著《harry potter》</li>
+<li>学习机器学习并完成一些项目</li>
+]]>
+    </summary>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[使用Sublime Text书写Markdown]]></title>
