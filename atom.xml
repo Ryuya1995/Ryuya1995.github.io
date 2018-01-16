@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Ryuya's Blog]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2018-01-16T20:01:08.851Z</updated>
+  <updated>2018-01-16T20:22:11.416Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -19,8 +19,10 @@
     <link href="http://yoursite.com/2018/01/17/The-Zen-of-Python/"/>
     <id>http://yoursite.com/2018/01/17/The-Zen-of-Python/</id>
     <published>2018-01-16T18:48:04.000Z</published>
-    <updated>2018-01-16T20:01:08.851Z</updated>
-    <content type="html"><![CDATA[<p>今天学完了sololearn上python3的课程，获得了一个小证书</p>
+    <updated>2018-01-16T20:22:11.416Z</updated>
+    <content type="html"><![CDATA[<hr>
+<p>今天学完了sololearn上python3的课程，完成新年第一个任务。</p>
+<hr>
 <p><img src="https://www.sololearn.com/Certificate/1073-5640152/jpg/?mode=download" alt=""></p>
 <p>Sololearn的课程在最后一章提到了python的哲学，当你在shell中输入</p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> this</span><br></pre></td></tr></table></figure>
@@ -36,9 +38,10 @@
 <p>这段代码使用d来保存一个字典，再用两个循环将a-z，A-Z作为key，通过对其ASCII码进行加13模26的运算获得对应value，实质是一个凯撒加密。</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>今天学完了sololearn上python3的课程，获得了一个小证书</p>
-<p><img src="https://www.sololearn.com/Certificate/1073-5640152/jpg/?mode=download" alt=""></p>
-<p]]>
+    <![CDATA[<hr>
+<p>今天学完了sololearn上python3的课程，完成新年第一个任务。</p>
+<hr>
+<p><img src="https://www.sololearn.com/Certificate/1073-5640152/jpg/?mode=download" al]]>
     </summary>
     
       <category term="python" scheme="http://yoursite.com/tags/python/"/>
@@ -50,9 +53,11 @@
     <link href="http://yoursite.com/2018/01/15/2018-plan/"/>
     <id>http://yoursite.com/2018/01/15/2018-plan/</id>
     <published>2018-01-15T12:50:42.000Z</published>
-    <updated>2018-01-15T13:02:52.820Z</updated>
+    <updated>2018-01-16T20:19:50.188Z</updated>
     <content type="html"><![CDATA[<ul>
-<li>使用sololearn完成python的学习</li>
+<li><del>使用sololearn完成python3的学习</del></li>
+</ul>
+<ul>
 <li>使用python做完leetcode</li>
 <li>完成东大情报创情的过去问</li>
 <li>读完英语原著《harry potter》</li>
@@ -62,13 +67,16 @@
 ]]></content>
     <summary type="html">
     <![CDATA[<ul>
-<li>使用sololearn完成python的学习</li>
+<li><del>使用sololearn完成python3的学习</del></li>
+</ul>
+<ul>
 <li>使用python做完leetcode</li>
 <li>完成东大情报创情的过去问</li>
 <li>读完英语原著《harry potter》</li>
-<li>学习机器学习并完成一些项目</li>
 ]]>
     </summary>
+    
+      <category term="plan" scheme="http://yoursite.com/tags/plan/"/>
     
   </entry>
   
