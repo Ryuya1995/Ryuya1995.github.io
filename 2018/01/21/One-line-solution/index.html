@@ -5,18 +5,18 @@
   
   <title>One line solution | Ryuya&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="最近开始用python做leetcode，很多题能用python写的十分简洁。在此做一个前30题里能用1行解决问题的小结。  Q9_Palindrome Number 判断回文数，将其转换成字符串类型后直接比较其翻转版本。 1234567class Solution:    def isPalindrome(self, x):        &quot;&quot;&quot;        :type x: int">
+  <meta name="description" content="最近开始用python做leetcode，很多题能用python写的十分简洁。在此做一个前30题里能用1-3行解决的问题小结。  Q9_Palindrome Number 判断回文数，将其转换成字符串类型后直接比较其翻转版本。 123class Solution:    def isPalindrome(self, x):        return str(x) == str(x)[::-1]">
 <meta name="keywords" content="python leetcode">
 <meta property="og:type" content="article">
 <meta property="og:title" content="One line solution">
 <meta property="og:url" content="http://yoursite.com/2018/01/21/One-line-solution/index.html">
 <meta property="og:site_name" content="Ryuya&#39;s Blog">
-<meta property="og:description" content="最近开始用python做leetcode，很多题能用python写的十分简洁。在此做一个前30题里能用1行解决问题的小结。  Q9_Palindrome Number 判断回文数，将其转换成字符串类型后直接比较其翻转版本。 1234567class Solution:    def isPalindrome(self, x):        &quot;&quot;&quot;        :type x: int">
+<meta property="og:description" content="最近开始用python做leetcode，很多题能用python写的十分简洁。在此做一个前30题里能用1-3行解决的问题小结。  Q9_Palindrome Number 判断回文数，将其转换成字符串类型后直接比较其翻转版本。 123class Solution:    def isPalindrome(self, x):        return str(x) == str(x)[::-1]">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-01-21T15:22:33.728Z">
+<meta property="og:updated_time" content="2018-01-21T15:53:25.305Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="One line solution">
-<meta name="twitter:description" content="最近开始用python做leetcode，很多题能用python写的十分简洁。在此做一个前30题里能用1行解决问题的小结。  Q9_Palindrome Number 判断回文数，将其转换成字符串类型后直接比较其翻转版本。 1234567class Solution:    def isPalindrome(self, x):        &quot;&quot;&quot;        :type x: int">
+<meta name="twitter:description" content="最近开始用python做leetcode，很多题能用python写的十分简洁。在此做一个前30题里能用1-3行解决的问题小结。  Q9_Palindrome Number 判断回文数，将其转换成字符串类型后直接比较其翻转版本。 123class Solution:    def isPalindrome(self, x):        return str(x) == str(x)[::-1]">
   
     <link rel="alternative" href="/atom.xml" title="Ryuya&#39;s Blog" type="application/atom+xml">
   
@@ -417,11 +417,11 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        <p>最近开始用python做leetcode，很多题能用python写的十分简洁。在此做一个前30题里能用1行解决问题的小结。</p>
+        <p>最近开始用python做leetcode，很多题能用python写的十分简洁。在此做一个前30题里能用1-3行解决的问题小结。</p>
 <hr>
 <p>Q9_Palindrome Number</p>
 <p>判断回文数，将其转换成字符串类型后直接比较其翻转版本。</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">isPalindrome</span><span class="params">(self, x)</span>:</span></span><br><span class="line">        <span class="string">"""</span></span><br><span class="line"><span class="string">        :type x: int</span></span><br><span class="line"><span class="string">        :rtype: bool</span></span><br><span class="line"><span class="string">        """</span></span><br><span class="line">        <span class="keyword">return</span> str(x) == str(x)[::<span class="number">-1</span>]</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">isPalindrome</span><span class="params">(self, x)</span>:</span></span><br><span class="line">        <span class="keyword">return</span> str(x) == str(x)[::<span class="number">-1</span>]</span><br></pre></td></tr></table></figure>
 <hr>
 <p>Q17_Phone Number</p>
 <p>输入电话按键，输出对应的可能字母组合。首先使用一个字典存储每个数字对应的字母，再作一个递归解决。</p>
@@ -429,7 +429,7 @@
 <hr>
 <p>Q22_Generate Parentheses</p>
 <p>生成给定n对括号的所有可能合法组合。添加一个默认参数op，表示没有闭合的左括号个数，再用n记未使用的左括号个数，使用递归完成。</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">generateParenthesis</span><span class="params">(self, n, op=<span class="number">0</span>)</span>:</span></span><br><span class="line">        <span class="string">"""</span></span><br><span class="line"><span class="string">        :type n: int</span></span><br><span class="line"><span class="string">        :rtype: List[str]</span></span><br><span class="line"><span class="string">        recursively</span></span><br><span class="line"><span class="string">        """</span></span><br><span class="line">        <span class="keyword">if</span> n &gt; <span class="number">0</span> <span class="keyword">and</span> op &gt;= <span class="number">0</span>:</span><br><span class="line">            <span class="keyword">return</span> [<span class="string">"("</span> + p <span class="keyword">for</span> p <span class="keyword">in</span> self.generateParenthesis(n - <span class="number">1</span>, op + <span class="number">1</span>)] + \</span><br><span class="line">            [<span class="string">")"</span> + p <span class="keyword">for</span> p <span class="keyword">in</span> self.generateParenthesis(n, op - <span class="number">1</span>)]</span><br><span class="line">        <span class="keyword">return</span> [<span class="string">")"</span> * op] * (n == <span class="number">0</span>)</span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">generateParenthesis</span><span class="params">(self, n, op=<span class="number">0</span>)</span>:</span></span><br><span class="line">        <span class="keyword">if</span> n &gt; <span class="number">0</span> <span class="keyword">and</span> op &gt;= <span class="number">0</span>:</span><br><span class="line">            <span class="keyword">return</span> [<span class="string">"("</span> + p <span class="keyword">for</span> p <span class="keyword">in</span> self.generateParenthesis(n - <span class="number">1</span>, op + <span class="number">1</span>)] + \</span><br><span class="line">            [<span class="string">")"</span> + p <span class="keyword">for</span> p <span class="keyword">in</span> self.generateParenthesis(n, op - <span class="number">1</span>)]</span><br><span class="line">        <span class="keyword">return</span> [<span class="string">")"</span> * op] * (n == <span class="number">0</span>)</span><br></pre></td></tr></table></figure>
       
     </div>
     
@@ -440,7 +440,7 @@
         <p><span>本文标题:</span><a href="/2018/01/21/One-line-solution/">One line solution</a></p>
         <p><span>文章作者:</span><a href="/" title="访问 Ryuya 的个人博客">Ryuya</a></p>
         <p><span>发布时间:</span>2018年01月21日 - 23时36分</p>
-        <p><span>最后更新:</span>2018年01月22日 - 00时22分</p>
+        <p><span>最后更新:</span>2018年01月22日 - 00时53分</p>
         <p>
             <span>原始链接:</span><a class="post-url" href="/2018/01/21/One-line-solution/" title="One line solution">http://yoursite.com/2018/01/21/One-line-solution/</a>
             <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2018/01/21/One-line-solution/　　作者: Ryuya" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
