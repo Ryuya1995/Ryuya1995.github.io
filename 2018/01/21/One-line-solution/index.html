@@ -3,15 +3,20 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Tag: Sublime Text | Ryuya&#39;s Blog</title>
+  <title>One line solution | Ryuya&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Ryuya&#39;s Blog">
-<meta property="og:url" content="http://yoursite.com/tags/Sublime-Text/index.html">
+  <meta name="description" content="最近开始用python做leetcode，很多题能用python写的十分简洁。在此做一个前30题里能用1行解决问题的小结。  Q9_Palindrome Number 判断回文数，将其转换成字符串类型后直接比较其翻转版本。 1234567class Solution:    def isPalindrome(self, x):        &quot;&quot;&quot;        :type x: int">
+<meta name="keywords" content="python leetcode">
+<meta property="og:type" content="article">
+<meta property="og:title" content="One line solution">
+<meta property="og:url" content="http://yoursite.com/2018/01/21/One-line-solution/index.html">
 <meta property="og:site_name" content="Ryuya&#39;s Blog">
+<meta property="og:description" content="最近开始用python做leetcode，很多题能用python写的十分简洁。在此做一个前30题里能用1行解决问题的小结。  Q9_Palindrome Number 判断回文数，将其转换成字符串类型后直接比较其翻转版本。 1234567class Solution:    def isPalindrome(self, x):        &quot;&quot;&quot;        :type x: int">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2018-01-21T15:22:33.728Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Ryuya&#39;s Blog">
+<meta name="twitter:title" content="One line solution">
+<meta name="twitter:description" content="最近开始用python做leetcode，很多题能用python写的十分简洁。在此做一个前30题里能用1行解决问题的小结。  Q9_Palindrome Number 判断回文数，将其转换成字符串类型后直接比较其翻转版本。 1234567class Solution:    def isPalindrome(self, x):        &quot;&quot;&quot;        :type x: int">
   
     <link rel="alternative" href="/atom.xml" title="Ryuya&#39;s Blog" type="application/atom+xml">
   
@@ -36,9 +41,9 @@
           fancybox: true,
           animate: true,
           isHome: false,
-          isPost: false,
+          isPost: true,
           isArchive: false,
-          isTag: true,
+          isTag: false,
           isCategory: false,
           open_in_new: false
       }
@@ -374,58 +379,221 @@
         </header>                
     </div>
 </nav>
-      <div class="body-wrap">
+      <div class="body-wrap"><article id="post-One-line-solution" class="article article-type-post" itemscope itemprop="blogPost">
   
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2016" class="archive-year">2016</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-          <div class="article-meta">
-              <a href="/2016/02/05/使用Sublime Text书写Markdown/" class="archive-article-date">
-      <time datetime="2016-02-05T07:11:31.000Z" itemprop="datePublished">02-05</time>
+    <div class="article-meta">
+      <a href="/2018/01/21/One-line-solution/" class="article-date">
+      <time datetime="2018-01-21T14:36:08.000Z" itemprop="datePublished">2018-01-21</time>
 </a>
-        </div>
-         
+    </div>
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/02/05/使用Sublime Text书写Markdown/">使用Sublime Text书写Markdown</a>
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      One line solution
     </h1>
   
 
-        <div class="article-info info-on-archive">
-          
-    <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/Web/">Web</a>
-    </div>
+      </header>
+      
+      <div class="article-info article-info-post">
+        
 
-
-          
+        
     <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Markdown/">Markdown</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Sublime-Text/">Sublime Text</a></li></ul>
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/python-leetcode/">python leetcode</a></li></ul>
     </div>
 
-        </div>
         <div class="clearfix"></div>
-    </header>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <p>最近开始用python做leetcode，很多题能用python写的十分简洁。在此做一个前30题里能用1行解决问题的小结。</p>
+<hr>
+<p>Q9_Palindrome Number</p>
+<p>判断回文数，将其转换成字符串类型后直接比较其翻转版本。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">isPalindrome</span><span class="params">(self, x)</span>:</span></span><br><span class="line">        <span class="string">"""</span></span><br><span class="line"><span class="string">        :type x: int</span></span><br><span class="line"><span class="string">        :rtype: bool</span></span><br><span class="line"><span class="string">        """</span></span><br><span class="line">        <span class="keyword">return</span> str(x) == str(x)[::<span class="number">-1</span>]</span><br></pre></td></tr></table></figure>
+<hr>
+<p>Q17_Phone Number</p>
+<p>输入电话按键，输出对应的可能字母组合。首先使用一个字典存储每个数字对应的字母，再作一个递归解决。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span>:</span></span><br><span class="line">    dic = &#123;<span class="string">'2'</span>: <span class="string">'abc'</span>, <span class="string">'3'</span>: <span class="string">'def'</span>, <span class="string">'4'</span>: <span class="string">'ghi'</span>, <span class="string">'5'</span>: <span class="string">'jkl'</span>, <span class="string">'6'</span>: <span class="string">'mno'</span>, <span class="string">'7'</span>: <span class="string">'pqrs'</span>, <span class="string">'8'</span>: <span class="string">'tuv'</span>, <span class="string">'9'</span>: <span class="string">'wxyz'</span>&#125;</span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">letterCombinations</span><span class="params">(self, digits)</span>:</span></span><br><span class="line">        <span class="keyword">return</span> [b + a <span class="keyword">for</span> b <span class="keyword">in</span> self.dic.get(digits[:<span class="number">1</span>],<span class="string">""</span>) <span class="keyword">for</span> a <span class="keyword">in</span> self.letterCombinations(digits[<span class="number">1</span>:]) <span class="keyword">or</span> [<span class="string">''</span>]] <span class="keyword">or</span> []</span><br></pre></td></tr></table></figure>
+<hr>
+<p>Q22_Generate Parentheses</p>
+<p>生成给定n对括号的所有可能合法组合。添加一个默认参数op，表示没有闭合的左括号个数，再用n记未使用的左括号个数，使用递归完成。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Solution</span>:</span></span><br><span class="line">    <span class="function"><span class="keyword">def</span> <span class="title">generateParenthesis</span><span class="params">(self, n, op=<span class="number">0</span>)</span>:</span></span><br><span class="line">        <span class="string">"""</span></span><br><span class="line"><span class="string">        :type n: int</span></span><br><span class="line"><span class="string">        :rtype: List[str]</span></span><br><span class="line"><span class="string">        recursively</span></span><br><span class="line"><span class="string">        """</span></span><br><span class="line">        <span class="keyword">if</span> n &gt; <span class="number">0</span> <span class="keyword">and</span> op &gt;= <span class="number">0</span>:</span><br><span class="line">            <span class="keyword">return</span> [<span class="string">"("</span> + p <span class="keyword">for</span> p <span class="keyword">in</span> self.generateParenthesis(n - <span class="number">1</span>, op + <span class="number">1</span>)] + \</span><br><span class="line">            [<span class="string">")"</span> + p <span class="keyword">for</span> p <span class="keyword">in</span> self.generateParenthesis(n, op - <span class="number">1</span>)]</span><br><span class="line">        <span class="keyword">return</span> [<span class="string">")"</span> * op] * (n == <span class="number">0</span>)</span><br></pre></td></tr></table></figure>
+      
+    </div>
+    
   </div>
+  
+    
+    <div class="copyright">
+        <p><span>本文标题:</span><a href="/2018/01/21/One-line-solution/">One line solution</a></p>
+        <p><span>文章作者:</span><a href="/" title="访问 Ryuya 的个人博客">Ryuya</a></p>
+        <p><span>发布时间:</span>2018年01月21日 - 23时36分</p>
+        <p><span>最后更新:</span>2018年01月22日 - 00时22分</p>
+        <p>
+            <span>原始链接:</span><a class="post-url" href="/2018/01/21/One-line-solution/" title="One line solution">http://yoursite.com/2018/01/21/One-line-solution/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2018/01/21/One-line-solution/　　作者: Ryuya" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <script src="/js/clipboard.min.js"></script>
+            <script> var clipboard = new Clipboard('.copy-path'); </script>
+        </p>
+        <p>
+            <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" title="中国大陆 (CC BY-NC-SA 3.0 CN)" target = "_blank">"署名-非商用-相同方式共享 3.0"</a> 转载请保留原文链接及作者。
+        </p>
+    </div>
+
+
+
+    <nav id="article-nav">
+        
+        
+            <div id="article-nav-older" class="article-nav-title">
+                <a href="/2018/01/17/The-Zen-of-Python/">
+                    The Zen of Python
+                </a>
+            </div>
+        
+    </nav>
+
+  
 </article>
-  
-  
-    </div></section>
-  
+
+    <div id="toc" class="toc-article">
+    <strong class="toc-title">文章目录</strong>
+    
+</div>
+<style>
+    .left-col .switch-btn {
+        display: none;
+    }
+    .left-col .switch-area {
+        display: none;
+    }
+</style>
+
+<input type="button" id="tocButton" value="隐藏目录"  title="点击按钮隐藏或者显示文章目录">
+
+<script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+<script>
+    var valueHide = "隐藏目录";
+    var valueShow = "显示目录";
+
+    if ($(".left-col").is(":hidden")) {
+        $("#tocButton").attr("value", valueShow);
+    }
+
+    $("#tocButton").click(function() {
+        if ($("#toc").is(":hidden")) {
+            $("#tocButton").attr("value", valueHide);
+            $("#toc").slideDown(320);
+            $(".switch-btn, .switch-area").fadeOut(300);
+        }
+        else {
+            $("#tocButton").attr("value", valueShow);
+            $("#toc").slideUp(350);
+            $(".switch-btn, .switch-area").fadeIn(500);
+        }
+    })
+
+    if ($(".toc").length < 1) {
+        $("#toc, #tocButton").hide();
+        $(".switch-btn, .switch-area").show();
+    }
+</script>
+
+
+
+
+    <div class="share">
+    <div class="bdsharebuttonbox">
+    <a href="#" class="bds_more" data-cmd="more"></a>
+    <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+    <a href="#" class="bds_sqq" data-cmd="sqq" title="分享给 QQ 好友"></a>
+    <a href="#" class="bds_copy" data-cmd="copy" title="复制网址"></a>
+    <a href="#" class="bds_mail" data-cmd="mail" title="通过邮件分享"></a>
+    <a href="#" class="bds_weixin" data-cmd="weixin" title="生成文章二维码"></a>
+    </div>
+    <script>
+        window._bd_share_config={
+            "common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+</div>
+
+
 
     
+        <section id="comments">
+  <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'ryuya1995com'; // required: replace example with your forum shortname
 
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+    
+
+
+
+
+    <div class="scroll" id="post-nav-button">
+        
+            <a href="/" title="回到主页"><i class="fa fa-home"></i></a>
+        
+
+        <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
+
+        
+            <a href="/2018/01/17/The-Zen-of-Python/" title="下一篇: The Zen of Python">
+                <i class="fa fa-angle-right"></i>
+            </a>
+        
+    </div>
+
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2018/01/21/One-line-solution/">One line solution</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/01/17/The-Zen-of-Python/">The Zen of Python</a></li><li class="post-list-item"><a class="post-list-link" href="/2018/01/15/2018-plan/">2018 plan</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/02/05/使用Sublime Text书写Markdown/">使用Sublime Text书写Markdown</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/02/04/搭建blog学习笔记/">搭建blog学习笔记</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/02/04/first-essay/">First essay</a></li></ul>
+    <script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+    <script>
+        $(".post-list").addClass("toc-article");
+        $(".post-list-item a").attr("target","_blank");
+        $("#post-nav-button > a:nth-child(2)").click(function() {
+            $(".fa-bars, .fa-times").toggle();
+            $(".post-list").toggle(300);
+            if ($(".toc").length > 0) {
+                $("#toc, #tocButton").toggle(200, function() {
+                    if ($(".switch-area").is(":visible")) {
+                        $("#toc, .switch-btn, .switch-area").toggle();
+                        $("#tocButton").attr("value", valueHide);
+                        }
+                    })
+            }
+            else {
+                $(".switch-btn, .switch-area").fadeToggle(300);
+            }
+        })
+    </script>
+
+
+
+
+    <script>
+        
+    </script>
 </div>
       <footer id="footer">
     <div class="outer">
@@ -518,17 +686,6 @@ MathJax.Hub.Queue(function() {
         };
     })
 </script>
-
-    <button class="hide-labels">TAG 开关</button>
-    <script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js">
-    </script>
-    <script>
-        $(document).ready(function() {
-            $("button").click(function() {
-                $(".article-info").toggle(200);
-            });
-        });
-    </script>
 
 
     <script src="//cdn.bootcss.com/jqueryui/1.10.4/jquery-ui.min.js"></script>
