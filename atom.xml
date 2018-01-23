@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Ryuya's Blog]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2018-01-23T06:10:07.451Z</updated>
+  <updated>2018-01-23T06:11:05.332Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,11 +15,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[Useful tips for MacOS]]></title>
-    <link href="http://yoursite.com/2018/01/23/Useful-tools-for-MacOS/"/>
-    <id>http://yoursite.com/2018/01/23/Useful-tools-for-MacOS/</id>
+    <title><![CDATA[Useful Tips for MacOS]]></title>
+    <link href="http://yoursite.com/2018/01/23/Useful-Tips-for-MacOS/"/>
+    <id>http://yoursite.com/2018/01/23/Useful-Tips-for-MacOS/</id>
     <published>2018-01-23T05:29:34.000Z</published>
-    <updated>2018-01-23T06:10:07.451Z</updated>
+    <updated>2018-01-23T06:11:05.332Z</updated>
     <content type="html"><![CDATA[<h3 id="u5E94_u7528_u7BC7"><a href="#u5E94_u7528_u7BC7" class="headerlink" title="应用篇"></a>应用篇</h3><p><strong>karabiner-elements</strong>：键盘自定义，可以将日文键盘不太使用的英数键改成delete，かな键改成中英切换。</p>
 <p>打开：~/.config/karabiner/karabiner.json</p>
 <a id="more"></a>
