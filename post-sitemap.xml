@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>http://yoursite.com/2018/01/23/Useful-tools-for-MacOS/</loc>
+        <lastmod>2018-01-23T06:06:15.632Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://yoursite.com/2018/01/21/One-line-solution/</loc>
         <lastmod>2018-01-21T15:54:31.514Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -41,14 +49,6 @@
     <url>
         <loc>http://yoursite.com/2016/02/04/%E6%90%AD%E5%BB%BAblog%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
         <lastmod>2016-02-05T11:46:24.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://yoursite.com/2016/02/04/first-essay/</loc>
-        <lastmod>2016-02-05T10:27:00.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
