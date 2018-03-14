@@ -62,35 +62,6 @@
   </entry>
   
   <entry>
-    <title></title>
-    <link href="http://yoursite.com/2018/01/30/How%20to%20download%20a%20gitbook/"/>
-    <id>http://yoursite.com/2018/01/30/How to download a gitbook/</id>
-    <published>2018-01-30T08:13:25.518Z</published>
-    <updated>2018-01-30T08:16:54.792Z</updated>
-    <content type="html"><![CDATA[<ul>
-<li><p>Step1. download the gitbook</p>
-<p><code>git clone https://git.gitbook.com/username/bookname.git</code></p>
-</li>
-</ul>
-<ul>
-<li><p>Step2. </p>
-<p><code>gitbook serve</code></p>
-</li>
-</ul>
-]]></content>
-    <summary type="html">
-    <![CDATA[<ul>
-<li><p>Step1. download the gitbook</p>
-<p><code>git clone https://git.gitbook.com/username/bookname.git</code></p>
-</li>
-</ul>
-<ul>
-<li]]>
-    </summary>
-    
-  </entry>
-  
-  <entry>
     <title><![CDATA[Useful Tips for MacOS]]></title>
     <link href="http://yoursite.com/2018/01/23/Useful-Tips-for-MacOS/"/>
     <id>http://yoursite.com/2018/01/23/Useful-Tips-for-MacOS/</id>
