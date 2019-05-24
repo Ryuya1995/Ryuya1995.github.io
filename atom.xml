@@ -18,7 +18,7 @@
     <title><![CDATA[快速搭建ssr服务器]]></title>
     <link href="http://yoursite.com/2018/03/15/%E5%BF%AB%E9%80%9F%E6%90%AD%E5%BB%BAssr%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
     <id>http://yoursite.com/2018/03/15/快速搭建ssr服务器/</id>
-    <published>2018-03-14T16:00:36.000Z</published>
+    <published>2018-03-14T15:00:36.000Z</published>
     <updated>2018-03-14T16:25:38.759Z</updated>
     <content type="html"><![CDATA[<p>####安装####</p>
 <ol>
@@ -65,7 +65,7 @@
     <title><![CDATA[Useful Tips for MacOS]]></title>
     <link href="http://yoursite.com/2018/01/23/Useful-Tips-for-MacOS/"/>
     <id>http://yoursite.com/2018/01/23/Useful-Tips-for-MacOS/</id>
-    <published>2018-01-23T06:29:34.000Z</published>
+    <published>2018-01-23T05:29:34.000Z</published>
     <updated>2018-01-23T06:11:05.332Z</updated>
     <content type="html"><![CDATA[<h3 id="u5E94_u7528_u7BC7"><a href="#u5E94_u7528_u7BC7" class="headerlink" title="应用篇"></a>应用篇</h3><p><strong>karabiner-elements</strong>：键盘自定义，可以将日文键盘不太使用的英数键改成delete，かな键改成中英切换。</p>
 <p>打开：~/.config/karabiner/karabiner.json</p>
@@ -151,7 +151,7 @@
     <title><![CDATA[One line solution]]></title>
     <link href="http://yoursite.com/2018/01/21/One-line-solution/"/>
     <id>http://yoursite.com/2018/01/21/One-line-solution/</id>
-    <published>2018-01-21T15:36:08.000Z</published>
+    <published>2018-01-21T14:36:08.000Z</published>
     <updated>2018-01-21T15:54:31.514Z</updated>
     <content type="html"><![CDATA[<p>最近开始用python做leetcode，很多题能用python写的十分简洁。在此做一个前30题里能用1-3行解决的问题小结。</p>
 <hr>
@@ -185,7 +185,7 @@
     <title><![CDATA[The Zen of Python]]></title>
     <link href="http://yoursite.com/2018/01/17/The-Zen-of-Python/"/>
     <id>http://yoursite.com/2018/01/17/The-Zen-of-Python/</id>
-    <published>2018-01-16T19:48:04.000Z</published>
+    <published>2018-01-16T18:48:04.000Z</published>
     <updated>2018-01-17T16:45:36.679Z</updated>
     <content type="html"><![CDATA[<p>今天学完了sololearn上python3的课程，完成新年第一个任务。</p>
 <a id="more"></a>
@@ -216,7 +216,7 @@
     <title><![CDATA[2018 plan]]></title>
     <link href="http://yoursite.com/2018/01/15/2018-plan/"/>
     <id>http://yoursite.com/2018/01/15/2018-plan/</id>
-    <published>2018-01-15T13:50:42.000Z</published>
+    <published>2018-01-15T12:50:42.000Z</published>
     <updated>2018-01-16T20:19:50.188Z</updated>
     <content type="html"><![CDATA[<ul>
 <li><del>使用sololearn完成python3的学习</del></li>
@@ -248,7 +248,7 @@
     <title><![CDATA[使用Sublime Text书写Markdown]]></title>
     <link href="http://yoursite.com/2016/02/05/%E4%BD%BF%E7%94%A8Sublime%20Text%E4%B9%A6%E5%86%99Markdown/"/>
     <id>http://yoursite.com/2016/02/05/使用Sublime Text书写Markdown/</id>
-    <published>2016-02-05T08:11:31.000Z</published>
+    <published>2016-02-05T07:11:31.000Z</published>
     <updated>2016-02-05T17:17:54.000Z</updated>
     <content type="html"><![CDATA[<h2 id="u4EC0_u4E48_u662F_Markdown"><a href="#u4EC0_u4E48_u662F_Markdown" class="headerlink" title="什么是 Markdown"></a>什么是 Markdown</h2><p>Markdown 是一种方便记忆、书写的纯文本标记语言，用户可以使用这些标记符号以最小的输入代价生成极富表现力的文档：它使用简单的符号标记不同的标题，分割不同的段落，<strong>粗体</strong> 或者 <em>斜体</em> 某些文字，它还可以</p>
 <h3 id="u5236_u4F5C_u4E00_u4EFD_u5F85_u529E_u4E8B_u5B9C"><a href="#u5236_u4F5C_u4E00_u4EFD_u5F85_u529E_u4E8B_u5B9C" class="headerlink" title="制作一份待办事宜"></a>制作一份待办事宜</h3><ul>
@@ -333,7 +333,7 @@
     <title><![CDATA[搭建blog学习笔记]]></title>
     <link href="http://yoursite.com/2016/02/04/%E6%90%AD%E5%BB%BAblog%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     <id>http://yoursite.com/2016/02/04/搭建blog学习笔记/</id>
-    <published>2016-02-04T09:54:01.000Z</published>
+    <published>2016-02-04T08:54:01.000Z</published>
     <updated>2016-02-05T11:46:24.000Z</updated>
     <content type="html"><![CDATA[<h2 id="u5185_u5BB9_u63D0_u8981"><a href="#u5185_u5BB9_u63D0_u8981" class="headerlink" title="内容提要"></a>内容提要</h2><blockquote>
 <ul>
@@ -393,6 +393,33 @@
       <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
     
       <category term="Web" scheme="http://yoursite.com/categories/Web/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[First Essay]]></title>
+    <link href="http://yoursite.com/2016/02/04/First%20Essay/"/>
+    <id>http://yoursite.com/2016/02/04/First Essay/</id>
+    <published>2016-02-03T17:37:47.000Z</published>
+    <updated>2019-05-24T09:24:01.340Z</updated>
+    <content type="html"><![CDATA[<p>第一篇随笔，摘录一首《万叶集》的短歌。</p>
+<hr>
+<pre><code>鸣神の　少しとよみて　さし昙り　雨も降らんか　君を留めん
+鸣神の　少しとよみて　降らずとも　我は止まらん　妹し留めば
+</code></pre><hr>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>第一篇随笔，摘录一首《万叶集》的短歌。</p>
+<hr>
+<pre><code>鸣神の　少しとよみて　さし昙り　雨も降らんか　君を留めん
+鸣神の　少しとよみて　降らずとも　我は止まらん　妹し留めば
+</code></pre><hr>
+]]>
+    </summary>
+    
+      <category term="短歌" scheme="http://yoursite.com/tags/%E7%9F%AD%E6%AD%8C/"/>
+    
+      <category term="Essay" scheme="http://yoursite.com/categories/Essay/"/>
     
   </entry>
   
